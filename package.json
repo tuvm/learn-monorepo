@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pnpm --filter react-app run start"
+    "start": "pnpm --filter react-app run dev",
+    "start:backend": "pnpm --filter backend run dev"
   },
   "keywords": [],
   "author": "",
